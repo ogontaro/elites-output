@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+#container{
+    width:960px;
+    margin: auto;
+}
+#logo h1{
+    color: #ccc;
+}
+
+.headerimg img{
+    width:100%;
+}
+
+nav{
+    height: 35px;
+}
+nav ul {
+
+    /*横並びにしたli要素に謎の空白が発生するのを防ぐ*/
+    font-size:0;
+
+    background-color: #3998d9;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display:inline-block;
+    background-color: #3998d9;
+    border-right: solid white 1px;
+    list-style: none;
+    font-size: 26px;
+    color: white;
+    height: 35px;
+    width: 100px;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    text-align: center;
+    line-height: 35px;
+}
+nav ul li:hover{
+    background-color: #ccc;
+}
+aside{
+    float: left;
+    width:100mm;
+    height: 860px;
+}
+aside h3{
+    color: #3998d9;
+    font-size: 24px;
+    margin: 30px 0 10px 0;
+    font-weight: 600;
+
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li{
+    list-style: none;
+    padding: 0 0 0 10px;
+    margin: 0 0 0 20px;
+    height: 50px;
+    width: 130px;
+    line-height: 60px;
+    font-size: 18px;
+    color: #ccc;
+    border-bottom: solid #aaa 2px;
+}
+.menu ul li a{
+    color: #555;
+    text-decoration: none;
+}
+article{
+    float: right;
+    width:150mm;
+    height: 860px;
+}
+
+article h2{
+    color: #555;
+    font-weight: 600;
+    width: 70mm;
+    margin: 40px 30px 20px 10px;
+    padding: 0 0 0 10px;
+    border-bottom: solid #aaa 2px;
+
+}
+
+article img{
+    color: #ccc;
+    width: 120mm;
+    margin: 10px 30px 0 10px;
+}
+
+article p{
+    margin: 10px 30px 0 10px;
+}
+
+footer{
+    clear: both;
+    width: auto;
+    background-color: #666666;
+    color: white;
+    text-decoration: none;
+    padding:10px 0 10px 10px;
+    margin: 10px 0 0 0;
+}
+footer p{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+footer a{
+    color: white;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
