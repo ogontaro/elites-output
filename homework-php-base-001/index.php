@@ -16,6 +16,16 @@ function isPrimeNumber($number){
     }
   return true;
 }
+
+/**
+ * 指定した範囲内の素数のリストを作る
+ * @param int $low 範囲の下限
+ * @param int $max 範囲の上限
+ * @return array 素数のリスト
+ */
+function createPrimeNumbers($low, $max){
+    return array_filter(range($low,$max),"isPrimeNumber");
+}
 ?>
 <!DOCTYPE html>
 <html lang="ja">
@@ -26,13 +36,16 @@ function isPrimeNumber($number){
 <body>
 <h1>素数列挙</h1>
 <p>1から100までの数字のうち、素数を出力する</p>
-<ul>
-<?php foreach(range(1,100) as $number){
-  if(isPrimeNumber($number)){
-    echo '<li>' . $number . '</li>';
-  }
+<?php
+$firstFlug=true;
+foreach(createPrimeNumbers(1,100) as $primeNumber){
+    if($firstFlug){
+        echo $primeNumber;
+        $firstFlug=false;
+    }else{
+        echo ', ' . $primeNumber;
+    }
 }
 ?>
-</ul>
 </body>
 </html>
