@@ -12,4 +12,7 @@ ELITES 課題004「数字の出力フォーマット」
 →済
 
 ## 確認先
-http://elites-ur.mydns.jp/homework-004/
+http://elites-ur.mydns.jp/homework-004/  
+  
+ID,PWは下記を参照  
+https://github.com/ogontaro/elites-output/
