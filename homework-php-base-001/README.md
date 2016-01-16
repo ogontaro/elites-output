@@ -9,3 +9,8 @@ PHP基礎 課題その1 「素数出力」
 ヒント: continueを用いると、ループ構造の処理をスキップできる。   
 参考 http://php.net/manual/ja/control-structures.continue.php  
 
+## 確認先
+http://elites-ur.mydns.jp/homework-php-base-001/  
+  
+ID,PWは下記を参照  
+https://github.com/ogontaro/elites-output/

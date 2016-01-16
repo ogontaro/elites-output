@@ -18,4 +18,10 @@ PHP基礎 課題その2 「メール送信機能を備えたお問い合わせ�
 その場合は下記のlogファイルにパーミッションに関わるエラーが出力されています。  
  /var/log/mail  
  fatal: open /etc/postfix/main.cf: Permission denied  
-SELINUXを無効にするとメールを送信できるようになります。  
+SELINUXを無効にするとメールを送信できるようになります。
+  
+## 確認先
+http://elites-ur.mydns.jp/homework-php-base-002/  
+  
+ID,PWは下記を参照  
+https://github.com/ogontaro/elites-output/

@@ -17,3 +17,9 @@ ELITES 課題003「ログインシステムの改良」
 →済  
 応用要件  
 →済  
+
+## 確認先
+http://elites-ur.mydns.jp/homework-003/  
+  
+ID,PWは下記を参照  
+https://github.com/ogontaro/elites-output/
