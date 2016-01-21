@@ -18,7 +18,8 @@ ELITESの課題や動画のソースコードの写経などの成果物を残�
 [課題その3 「ログインシステムの改良」](https://github.com/ogontaro/elites-output/tree/master/homework-003 "課題その3「ログインシステムの改良」")  
 [課題その4 「数字の出力フォーマット」](https://github.com/ogontaro/elites-output/tree/master/homework-004 "課題その4「数字の出力フォーマット」")  
 [課題その5 「文字列からN番目」](https://github.com/ogontaro/elites-output/tree/master/homework-005 "課題その5「文字列からN番目」")  
-[課題その6 「CSVファイルの読み込みと出力」](https://github.com/ogontaro/elites-output/tree/master/homework-006 "課題その6「CSVファイルの読み込みと出力」")
+[課題その6 「CSVファイルの読み込みと出力」](https://github.com/ogontaro/elites-output/tree/master/homework-006 "課題その6「CSVファイルの読み込みと出力」")  
+[課題その7 「サブクエリ」](https://github.com/ogontaro/elites-output/tree/master/homework-007 "課題その7 「サブクエリ」")
 
 ### 学習成果
 [PHP基礎1 実習「感想投稿フォームを作ろう」](https://github.com/ogontaro/elites-output/tree/master/php-basic-1-practice "PHP基礎1 実習「感想投稿フォームを作ろう」")  
