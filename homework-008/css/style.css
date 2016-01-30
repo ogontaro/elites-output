@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+.image-file {
+    max-height: 200px;
+    max-width: 200px;
+}
