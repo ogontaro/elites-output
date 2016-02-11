@@ -11,7 +11,7 @@ function connectDb()
 {
     define('DSN', 'mysql:host=localhost;dbname=impression_homework_8;charset=utf8');
     define('USER', 'testuser');
-    define('PASSWORD', '1234');
+    define('PASSWORD', '9999');
 
     try
     {
